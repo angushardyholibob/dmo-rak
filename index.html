@@ -3,77 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Visit Ras Al Khaimah — RAK Moments</title>
+  <title>Visit Barbados — Your Sweetest Summer Escape</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="nav-wrap">
-    <nav class="nav">
-      <a class="nav-logo" href="#" aria-label="Visit Ras Al Khaimah">
-        <svg viewBox="0 0 90 42" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M4 30 L18 8 L30 26 L42 10 L54 28 L66 12 L82 30" fill="none" stroke="#C8102E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span class="nav-logo-text">Ras Al Khaimah</span>
-      </a>
-
-      <ul class="nav-links">
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Be Inspired</a></li>
-        <li><a href="#">Where to stay</a></li>
-        <li><a href="#">Things to do</a></li>
-        <li><a href="#">Plan Your Trip</a></li>
-      </ul>
-
-      <div class="nav-actions">
-        <button class="nav-lang" type="button">
-          <span class="flag" aria-hidden="true"></span>
-          <span>EN</span>
-          <svg viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-        <button class="nav-icon-btn" type="button">
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          <span>Events</span>
-        </button>
-        <button class="nav-icon-btn" type="button">
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          <span>Search</span>
-        </button>
+  <div class="alert-bar">
+    <div class="alert-inner">
+      <div class="alert-copy">
+        <strong>Arriving in Barbados soon?</strong>
+        <span>Please make sure to fill out your Online Customs and Immigration form before your arrival.</span>
       </div>
-    </nav>
-  </header>
+      <a class="alert-cta" href="#">Submit here</a>
+    </div>
+  </div>
 
   <section class="hero">
     <div class="hero-media">
-      <img src="https://images.unsplash.com/photo-1578469645742-46cae010e5d4?auto=format&fit=crop&w=2400&q=80" alt="Aerial view of Ras Al Khaimah mangroves" />
-      <div class="hero-scrim"></div>
+      <img src="https://images.unsplash.com/photo-1580541631971-a8e299b70a8f?auto=format&fit=crop&w=2400&q=80" alt="Boat tour on turquoise water off the Barbados coast" />
     </div>
+
+    <button class="carousel-arrow carousel-arrow--prev" type="button" aria-label="Previous">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="carousel-arrow carousel-arrow--next" type="button" aria-label="Next">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
     <div class="hero-content">
-      <p class="hero-eyebrow">RAK</p>
-      <h1 class="hero-title">MOMENTS</h1>
-      <a href="#" class="hero-cta">Exclusive Staycation Offers</a>
+      <h1 class="hero-title" aria-label="Barbados">
+        <span>BARBAD</span><svg class="trident" viewBox="0 0 60 90" aria-hidden="true"><use href="#trident"/></svg><span>S</span>
+      </h1>
+      <p class="hero-tagline">YOUR SWEETEST SUMMER ESCAPE</p>
     </div>
+
+    <a href="#main" class="hero-scroll" aria-label="Scroll down">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+
+    <footer class="hero-utility">
+      <button class="util-btn util-lang" type="button">
+        <span class="flag-bb" aria-hidden="true"></span>
+        <span>EN</span>
+        <svg viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="util-right">
+        <a class="util-btn" href="#">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3.06 4.18 2 2 0 0 1 5.05 2h3a2 2 0 0 1 2 1.72 12.8 12.8 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L9.09 9.91a16 16 0 0 0 5 5l1.27-1.27a2 2 0 0 1 2.11-.45 12.8 12.8 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Call</span>
+        </a>
+        <a class="util-btn" href="#">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Login</span>
+        </a>
+        <a class="util-btn" href="#">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v5M12 16h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <span>About Us</span>
+        </a>
+      </div>
+    </footer>
   </section>
 
-  <section class="stay">
-    <div class="stay-inner">
-      <div class="stay-heading">
-        <span class="stay-ghost">WHERE</span>
-        <h2>WHERE TO STAY</h2>
-      </div>
-      <div class="stay-pills" role="tablist">
-        <button class="pill is-active" role="tab" aria-selected="true">Luxury Hotels</button>
-        <button class="pill" role="tab">Beach Resorts</button>
-        <button class="pill" role="tab">Desert</button>
-        <button class="pill" role="tab">Mountain Lodges</button>
-        <button class="pill" role="tab">Family</button>
-        <button class="pill" role="tab">City</button>
-        <button class="pill" role="tab">Unique Stays</button>
-        <button class="pill" role="tab">Romantic Villa Stays</button>
-      </div>
-    </div>
-  </section>
+  <main id="main"></main>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="trident" viewBox="0 0 60 90">
+        <path d="M10 12 L10 26 Q10 34 18 36 L27 38 L27 82 Q27 86 30 86 Q33 86 33 82 L33 38 L42 36 Q50 34 50 26 L50 12 L44 12 L44 26 Q44 30 40 30 L33 30 L33 12 L27 12 L27 30 L20 30 Q16 30 16 26 L16 12 Z"
+              fill="currentColor"/>
+      </symbol>
+    </defs>
+  </svg>
 </body>
 </html>
